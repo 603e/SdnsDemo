@@ -46,15 +46,15 @@
 ## 架构设计
     采用经典的分层架构，以高内聚低耦合、职责单一的原则。尽力保证后续需求变化中核心功能良好的易扩展性以及基础设施的易替代性。从而降低企业成本，提高研发效率。  
      1. 逻辑层分为过滤器、控制层、服务层、数据层。如图所示
-![](https://user-images.githubusercontent.com/framework.png)
+![](https://github.com/603e/SdnsDemo/blob/main/README_IMG/framework.png)
 
 ## 单元测试覆盖率截图
-![单元测试覆盖率图](https://user-images.githubusercontent.com/test_case_cover.png)
+![单元测试覆盖率图](https://github.com/603e/SdnsDemo/blob/main/README_IMG/test_case_cover.png)
 
 ## 性能测试:
     本次利用Java性能测试框架工具-JunitPerf进行测试，测试结果如下：
 ## 测试结果：
-![cs1](https://github.com/603e/SdnsDemo/blob/pic/pref.png)    
+![cs1](https://github.com/603e/SdnsDemo/blob/main/README_IMG/pref.png)    
 
 ## 编译运行
   编译后取启动类jar包即可命令行启动
